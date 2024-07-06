@@ -1,7 +1,9 @@
+import React from 'react';
+
 const Header = () => {
   return (
     <>
-      <header
+      <div
         style={{
           width: '100%',
           background: 'black',
@@ -10,7 +12,7 @@ const Header = () => {
         }}
       >
         header
-      </header>
+      </div>
     </>
   );
 };

@@ -11,5 +11,5 @@
     "forceConsistentCasingInFileNames": true,
     "types": ["node"]
   },
-  "include": ["src", "eslint.config.ts"]
+  "include": ["src", "eslint.config.cjs"]
 }
