@@ -1,0 +1,35 @@
+#fanta {
+  position: absolute;
+}
+#orange {
+  position: absolute;
+  bottom: 4%;
+  right: 25%;
+}
+#slice {
+  position: absolute;
+  top: 5%;
+  left: 38%;
+}
+
+.whole h1 {
+  font-size: 20vw;
+  height: 20vh;
+  font-weight: 900;
+}
+.second {
+  background: rgb(194, 21, 21);
+  background: linear-gradient(
+    4deg,
+    rgba(194, 21, 21, 1) 0%,
+    rgba(203, 104, 37, 1) 88%
+  );
+}
+.third {
+  background: rgb(194, 21, 21);
+  background: linear-gradient(
+    180deg,
+    rgba(194, 21, 21, 1) 0%,
+    rgba(203, 104, 37, 1) 88%
+  );
+}
