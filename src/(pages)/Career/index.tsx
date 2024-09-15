@@ -32,7 +32,7 @@ const index = () => {
             src="/leaf.png"
             alt="..."
             width={150}
-            className="absolute z-50 rotate-45 left-48 top-44"
+            className="absolute z-50 rotate-45 left-48 top-44 leaf"
           />
         </div>
       </div>

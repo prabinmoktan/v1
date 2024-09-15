@@ -1,7 +1,9 @@
+
 export const navItems = [
   { name: 'Home', link: '/' },
   { name: 'Destination', link: '/destination' },
   { name: 'About Us', link: '/about' },
+  { name: 'Career', link: '/career' },
 ];
 
 export const cardData = [

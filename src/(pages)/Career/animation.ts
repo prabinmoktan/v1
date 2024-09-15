@@ -13,11 +13,17 @@ export const drinkAnimation = () => {
       // markers: true
     },
   });
+  tl.to('.leaf',{
+    top: '124%',
+    left: '72%',
+    rotate:'280deg'
+  },'orange')
   tl.to(
     '#fanta',
     {
       top: '118%',
       left: '10%',
+      // rotate:'360deg'
     },
     'orange'
   );
@@ -46,7 +52,7 @@ export const drinkAnimation = () => {
       start: '0% 80%',
       end: '50% 50%',
       scrub: 1,
-      markers: true,
+      // markers: true,
     },
   });
   tl2.from(
@@ -70,6 +76,7 @@ export const drinkAnimation = () => {
     {
       top: '207%',
       left: '65.7%',
+      rotate:'360deg'
     },
     'secondAni'
   );
